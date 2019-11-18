@@ -67,37 +67,58 @@
         </div>
       </nav>
 
-      <!-- Row with image + writing and Visualizations hyperlinks -->
       <div class="row">
-        <div class="col-lg-8 col-sm-12">
-          <h3> Temperature</h3>
 
-          <img src="./Resources/assets/images/Fig1.png" class="img-fluid rounded" alt="Wind Speed vs Latitude">
-          <p>Don't go to the tropics</p>
+        <!-- Left side: Content -->
+
+        <div class="col-lg-8">
+          <div class="card bg-light m-2">
+            <div class="card-header"> Latitude vs. Temperature </div>
+            <img class="card-img-top" src="./Resources/assets/images/Fig1.png" alt="Latitude vs temperature">
+            <div class="card-body">
+              <p class="card-text">Hot at the equator</p>
+            </div>
+          </div>
         </div>
 
-        <div class="col-lg-4 col-sm-12">
+        <!-- End Content -->
 
-          <h3>Visualizations</h3>
+        <!-- Right side: Visualizations -->
+        <div class="col-lg-4">
+          <div class="card bg-light m-2">
+            <div class="card-header"> Visualizations </div>
 
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <a href="temperature.html">
+                      <img src="./Resources/assets/images/Fig1.png" class="img-thumbnail p-0 m-0" alt="Temperature vs Latitude">
+                    </a>
+                  </div>
+                  <div class="col-lg-6">
+                    <a href="humidity.html">
+                      <img src="./Resources/assets/images/Fig2.png" class="img-thumbnail p-0 m-0" alt="Humidity vs Latitude">
+                    </a>
+                  </div>
+                </div>
 
-            <a href="temperature.html">
-              <img src="./Resources/assets/images/Fig1.png" class="img-fluid rounded" alt="Temperature vs Latitude">
-            </a>
+                <div class="row mt-3">
+                  <div class="col-lg-6">
+                    <a href="cloudy.html">
+                      <img src="./Resources/assets/images/Fig3.png" class="img-thumbnail p-0 m-0" alt="Cloudiness vs Latitude">
+                    </a>
+                  </div>
+                  <div class="col-lg-6">
+                    <a href="wind.html">
+                      <img src="./Resources/assets/images/Fig4.png" class="img-thumbnail p-0 m-0" alt="Wind Speed vs Latitude">
+                    </a>
+                  </div>
+                </div>
+              </div>
 
-            <a href="humidity.html">
-              <img src="./Resources/assets/images/Fig2.png" class="img-fluid rounded" alt="Humidity vs Latitude">
-            </a>
-
-            <a href="cloudy.html">
-              <img src="./Resources/assets/images/Fig3.png" class="img-fluid rounded" alt="Cloudiness vs Latitude">
-            </a>
-
-            <a href="wind.html">
-              <img src="./Resources/assets/images/Fig4.png" class="img-fluid rounded" alt="Wind Speed vs Latitude">
-            </a>
-
+          </div>
         </div>
+        <!-- End Visualizations -->
 
       </div>
       <!-- End Row -->
